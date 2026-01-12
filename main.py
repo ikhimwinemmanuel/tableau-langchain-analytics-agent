@@ -49,7 +49,7 @@ TableauLangChain = create_react_agent(
     tools = tools,
     prompt=AGENT_SYSTEM_PROMPT)
     
-# Usage
+# Run once Usage
 #your_prompt = 'Show sales per customer by region'
 #messages = {"messages": [("user", your_prompt)]}
 #print_stream(TableauLangChain.stream(messages, config=config, stream_mode="values"))
