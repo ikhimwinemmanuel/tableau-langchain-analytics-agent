@@ -54,3 +54,16 @@ TableauLangChain = create_react_agent(
 #messages = {"messages": [("user", your_prompt)]}
 #print_stream(TableauLangChain.stream(messages, config=config, stream_mode="values"))
 
+def ask_tableau_agent(question: str) -> str:
+    """
+    Takes a natural language question and returns
+    a data-grounded answer from Tableau via LangChain.
+    """
+    messages = {"messages": [("user", question)]}
+
+    result = TableauLangChain.invoke(
+        messages,
+        config=config
+    )
+
+    return result["messages"][-1].content
