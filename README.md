@@ -1,3 +1,14 @@
+---
+title: Tableau LangChain Analytics Agent
+emoji: 👁️
+colorFrom: blue
+colorTo: blue
+sdk: docker
+pinned: false
+license: mit
+---
+
+
 ## Tableau LangChain Analytics Agent
 
 A natural language analytics service that enables users to ask questions in plain English and receive data-grounded answers directly from Tableau Cloud data sources, without writing SQL or building dashboards.
