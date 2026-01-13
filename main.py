@@ -67,3 +67,7 @@ def ask_tableau_agent(question: str) -> str:
     )
 
     return result["messages"][-1].content
+
+# if __name__ == "__main__":
+#     response = ask_tableau_agent("Show total Sales by Region")
+#     print(response)
