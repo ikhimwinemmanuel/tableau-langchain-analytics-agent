@@ -11,11 +11,11 @@ gradio_ui = gr.Interface(
     fn=gradio_ask,
     inputs=gr.Textbox(
         label="Ask a Tableau question",
-        placeholder="e.g. Show total sales by region"
+        placeholder="e.g. Show total sales"
     ),
     outputs=gr.Textbox(label="Answer"),
     title="Tableau LangChain Analytics Agent",
-    description="Ask natural-language questions over Tableau data using LangChain."
+    description="Ask natural-language questions over Tableau SuperStore dataset and recieve an answer."
 )
 
 
