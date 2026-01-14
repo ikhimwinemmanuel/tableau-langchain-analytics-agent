@@ -12,7 +12,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
     gr.Markdown(
         """
         # 📊 Tableau LangChain Analytics Agent  
-        Ask natural-language questions over your Tableau **Superstore** data.
+        Ask natural-language questions over the Tableau **Superstore** data.
 
         **Examples you can try:**
         - Show total sales by region  
