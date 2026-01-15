@@ -12,7 +12,8 @@ with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
     gr.Markdown(
         """
         # 📊 Tableau LangChain Analytics Agent  
-        Interact with the Tableau **Superstore** dataset using natural language (a GenAI-powered analytics application)
+        Interact with Tableau **SuperStore** data using natural language (a GenAI-powered analytics application)
+
         **Examples you can try:**
         - Show total sales by region  
         - Top customers by profit  
