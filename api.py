@@ -12,7 +12,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
     gr.Markdown(
         """
         # 📊 Tableau Analytics Agent  
-        Interact with Tableau **SuperStore** data using natural language (a GenAI-powered analytics application)
+        Interact with the famous Tableau **SuperStore** dataset using natural language (a GenAI-powered analytics application)
 
         **Examples you can try:**
         - Show total sales by region  
