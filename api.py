@@ -11,7 +11,7 @@ def gradio_ask(question):
 with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
     gr.Markdown(
         """
-        # 📊 Tableau LangChain Analytics Agent  
+        # 📊 Tableau Analytics Agent  
         Interact with Tableau **SuperStore** data using natural language (a GenAI-powered analytics application)
 
         **Examples you can try:**
