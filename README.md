@@ -50,7 +50,7 @@ Importantly, **the LLM does not invent metrics or values** — it only reasons o
 ---
 
 ## Project Structure
-
+```
 tableau-langchain-analytics-agent/
 ├── main.py                      # Core LangChain + Tableau agent logic
 ├── api.py                       # FastAPI service layer
@@ -61,7 +61,7 @@ tableau-langchain-analytics-agent/
 ├── requirements.txt             # Python dependencies
 ├── .gitignore                   # Excludes secrets and virtual environments
 └── README.md                    # Project documentation
-
+```
 ---
 
 ## Deployment
