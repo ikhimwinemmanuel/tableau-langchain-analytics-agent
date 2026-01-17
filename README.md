@@ -1,4 +1,3 @@
-
 ## Tableau LangChain Analytics Agent
 
 A data-grounded natural language analytics service that allows users to ask questions in plain English and receive answers directly from governed Tableau Cloud data sources — without writing SQL or building dashboards.
@@ -97,5 +96,3 @@ https://ikhimwin-tableau-langchain-analytics-agent.hf.space/ui/
 ## Publication on Medium
 
 https://medium.com/@ikhimwinemmanuel/building-a-data-grounded-genai-analytics-application-with-tableau-and-langchain-e407b68bf9e3
-
-
