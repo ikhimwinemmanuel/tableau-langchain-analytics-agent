@@ -52,15 +52,18 @@ Importantly, **the LLM does not invent metrics or values** — it only reasons o
 ## Project Structure
 ```
 tableau-langchain-analytics-agent/
-├── main.py                      # Core LangChain + Tableau agent logic
-├── api.py                       # FastAPI service layer
+├── Dockerfile                 # Container definition for FastAPI + Gradio app
+├── main.py                    # Core LangChain + Tableau agent logic
+├── api.py                     # FastAPI service layer (Gradio mounted here)
 ├── utilities/
-│   ├── prompt.py                # Agent identity and system prompts
-│   ├── chat.py                  # Response handling utilities
+│   ├── prompt.py              # Agent identity and system prompts
+│   ├── chat.py                # Response handling utilities
 │   └── find_datasource_luid_gql.py  # Retrieve datasource LUID via GraphQL
-├── requirements.txt             # Python dependencies
-├── .gitignore                   # Excludes secrets and virtual environments
-└── README.md                    # Project documentation
+├── requirements.txt           # Python dependencies
+├── .env.example               # Environment variable template (safe for repo)
+├── .gitignore                 # Excludes secrets and virtual environments
+└── README.md                  # Project documentation
+
 ```
 ---
 
