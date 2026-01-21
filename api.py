@@ -14,8 +14,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
         # 📊 Tableau Analytics Agent  
         Interact with the famous Tableau **SuperStore** dataset using natural language (a GenAI-powered analytics application)
 
-        **Examples you can try:**
-        - Show total sales by region  
+        **Examples you can try:** 
         - Top customers by profit  
         - Sales trend by category  
         """
@@ -24,7 +23,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
     with gr.Row():
         question_input = gr.Textbox(
             label="Your Question",
-            placeholder="e.g. Show total sales by region",
+            placeholder="e.g. Show total profit for the last year",
             lines=2
         )
 
