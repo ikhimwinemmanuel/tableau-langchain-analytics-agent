@@ -92,11 +92,11 @@ The application is containerized using **Docker** and deployed on **Hugging Face
 
 MIT
 
-## Live Demo
+## Demo
 
 Try the live application on Hugging Face Spaces:
 
-### Interface Preview
+### Live Analytics Demonstration
 ![Tableau Analytics Agent Demo](assets/demo-ui.webp)
 
 https://ikhimwin-tableau-langchain-analytics-agent.hf.space/ui/ 
