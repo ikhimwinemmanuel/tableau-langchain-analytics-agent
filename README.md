@@ -52,6 +52,8 @@ Importantly, **the LLM does not invent metrics or values** — it only reasons o
 ## Project Structure
 ```
 tableau-langchain-analytics-agent/
+├──assets/
+│   └── demo-ui.webp
 ├── Dockerfile                 # Container definition for FastAPI + Gradio app
 ├── main.py                    # Core LangChain + Tableau agent logic
 ├── api.py                     # FastAPI service layer (Gradio mounted here)
@@ -93,6 +95,9 @@ MIT
 ## Live Demo
 
 Try the live application on Hugging Face Spaces:
+
+### Interface Preview
+![Tableau Analytics Agent Demo](assets/demo-ui.webp)
 
 https://ikhimwin-tableau-langchain-analytics-agent.hf.space/ui/ 
 
