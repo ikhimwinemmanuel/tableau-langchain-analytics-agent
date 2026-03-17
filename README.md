@@ -1,6 +1,6 @@
 ## Tableau LangChain Analytics Agent
 
-A data-grounded natural language analytics service that allows users to ask questions in plain English and receive answers directly from governed Tableau Cloud data sources — without writing SQL or building dashboards.
+A data-grounded natural language analytics service that allows users to ask questions in plain English and receive answers directly from governed Tableau Cloud data sources without writing SQL or building dashboards.
 
 This project explores how Large Language Models (LLMs) can be used responsibly as an orchestration layer on top of trusted analytics systems, rather than as standalone answer generators.
 
@@ -10,7 +10,7 @@ This project explores how Large Language Models (LLMs) can be used responsibly a
 
 This project implements an end-to-end **Natural Language Query (NLQ)** system on top of **Tableau Cloud**.
 
-Instead of relying on an LLM’s internal knowledge, all responses are generated only after querying a published Tableau data source via LLM-initiated tool calls. The LLM functions strictly as a reasoning and orchestration layer — deciding when and how to invoke governed Tableau query tools
+Instead of relying on an LLM’s internal knowledge, all responses are generated only after querying a published Tableau data source via LLM-initiated tool calls. The LLM functions strictly as a reasoning and orchestration layer, deciding when and how to invoke governed Tableau query tools
 
 If a question cannot be answered from the connected Tableau datasource, the system **fails gracefully rather than hallucinating results**.
 
