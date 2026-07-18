@@ -1,8 +1,8 @@
-fastapi==0.115.12
+fastapi==0.139.1
 langchain_openai==0.3.19
 langchain_tableau==0.4.39
 langsmith==0.3.44
 pydantic==2.11.5
 python-dotenv==1.1.0
 uvicorn==0.34.3
-gradio
+gradio==6.20.0
