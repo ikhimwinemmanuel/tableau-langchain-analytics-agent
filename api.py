@@ -2,7 +2,7 @@ import gradio as gr
 from fastapi import FastAPI
 from main import ask_tableau_agent
 
-app = FastAPI(title="Tableau LangChain Analytics Agent")
+app = FastAPI(title="AI Analytics Agent")
 
 def gradio_ask(question):
     return ask_tableau_agent(question)
@@ -11,8 +11,8 @@ def gradio_ask(question):
 with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
     gr.Markdown(
         """
-        # 📊 Tableau Analytics Agent  
-        Interact with the famous Tableau **SuperStore** dataset using natural language (a GenAI-powered analytics application)
+        # AI Analytics Agent (Conversational Analytics)
+        Interact with a published dataset on Tableau **SuperStore** dataset using natural language (a LLM analytics application)
 
         **Examples you can try:** 
         - Top customers by profit  
@@ -47,7 +47,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as gradio_ui:
 def root():
     return {
         "status": "ok",
-        "message": "Tableau LangChain Analytics Agent is running"
+        "message": "AI Analytics Agent is running"
     }
 
 
