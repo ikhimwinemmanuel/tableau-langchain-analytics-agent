@@ -101,6 +101,4 @@ Try the live application on Hugging Face Spaces:
 
 https://ikhimwin-tableau-langchain-analytics-agent.hf.space/ui/ 
 
-## Publication on Medium
 
-https://medium.com/@ikhimwinemmanuel/building-a-data-grounded-genai-analytics-application-with-tableau-and-langchain-e407b68bf9e3
